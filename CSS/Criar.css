@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #26163b;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.posicao{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+}
+.bagulho{ 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.bagulho a{
+    color: white;
+    background-color: #955fdb;
+    border-radius: 3px;
+    margin-top: 7px;
+    text-decoration: none;
+}
+.bagulho a:hover{
+    background-color: #9116b6;
+    transition: 0.5s;
+}
